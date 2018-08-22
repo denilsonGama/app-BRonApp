@@ -21,7 +21,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".Lista_Vagas" />
-        <activity android:name=".lista_vagas"></activity>
     </application>
 
 </manifest>

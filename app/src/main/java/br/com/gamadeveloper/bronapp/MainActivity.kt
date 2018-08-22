@@ -14,25 +14,27 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.page_login)
     }
 
-    fun buttonLogin(view: View) {
+    fun buttonLogin(view: View){
 
         val email = edit_Email
         val senha = edit_Senha
 
 
-        if (edit_Email.length() == 0) {
+        if (edit_Email.length() == 0){
 
             textError.setText("Todos os campos obrigatorio!")
 
-        } else if (edit_Senha.length() == 0) {
+        }else if (edit_Senha.length() == 0){
 
             textError.setText("Todos os campos obrigatorio!")
 
-        } else {
-            val intent = Intent(this, lista_vagas::class.java)
+        }else{
+            val intent = Intent(this, Lista_Vagas::class.java)
 
             startActivity(intent)
         }
 
     }
+
+
 }
