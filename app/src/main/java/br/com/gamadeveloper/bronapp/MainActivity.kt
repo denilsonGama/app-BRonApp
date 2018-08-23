@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.page_login)
-    }
+       }
 
     fun buttonLogin(view: View){
 
@@ -28,13 +28,23 @@ class MainActivity : AppCompatActivity() {
 
             textError.setText("Todos os campos obrigatorio!")
 
-        }else{
-            val intent = Intent(this, Lista_Vagas::class.java)
-
+            }else{
+            val intent = Intent(this, ListaVagas::class.java)
             startActivity(intent)
         }
 
     }
-
-
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
