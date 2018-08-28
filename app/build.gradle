@@ -7,7 +7,7 @@ apply plugin: 'kotlin-android-extensions'
 android {
     compileSdkVersion 27
     defaultConfig {
-        applicationId "br.com.gamadeveloper.bronapp"
+        applicationId "br.example.administrador.bronapp"
         minSdkVersion 22
         targetSdkVersion 27
         versionCode 1
